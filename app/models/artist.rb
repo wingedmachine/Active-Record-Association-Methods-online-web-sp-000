@@ -12,6 +12,5 @@ class Artist < ActiveRecord::Base
 
   def genre_count
     self.genres.size
-    #self.songs.map { |song| song.genre }.uniq.count
   end
 end
